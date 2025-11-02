@@ -96,11 +96,7 @@ export default function Hero() {
                   color: 'var(--neon-blue)'
                 }}
               >
-<<<<<<< HEAD
                 Full-Stack Developer
-=======
-                <Full-Stack Developer />
->>>>>>> 167262af9b447d2e9d5be4e8b43ec7704f5947c5
               </span>
             </div>
           </motion.div>
@@ -170,15 +166,9 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.8 }}
           >
             {[
-<<<<<<< HEAD
               { Icon: Github, href: 'https://github.com/Bhavikpim123' },
               { Icon: Linkedin, href: 'https://www.linkedin.com/in/bhavik-pimpalkar-46855a230/' },
               { Icon: Mail, href: 'mailto:bhavikpimpalkar@gmail.com' }
-=======
-              { Icon: Github, href: 'https://github.com/bhavik' },
-              { Icon: Linkedin, href: 'https://linkedin.com/in/bhavik-pimpalkar' },
-              { Icon: Mail, href: 'mailto:bhavikapimpalkar@gmail.com' }
->>>>>>> 167262af9b447d2e9d5be4e8b43ec7704f5947c5
             ].map(({ Icon, href }, index) => (
               <motion.a
                 key={index}

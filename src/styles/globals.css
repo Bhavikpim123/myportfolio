@@ -6,17 +6,10 @@
   --font-size: 16px;
   --font-mono: 'Space Mono', 'Courier New', monospace;
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-<<<<<<< HEAD
   --background: #0a0a0f; /* Dark background */
   --foreground: #e5e7eb; /* Light text */
   --card: #13131a; /* Dark cards */
   --card-foreground: #e5e7eb; /* Light text on cards */
-=======
-  --background: #0a0a0f;
-  --foreground: #e5e7eb;
-  --card: #13131a;
-  --card-foreground: #e5e7eb;
->>>>>>> 167262af9b447d2e9d5be4e8b43ec7704f5947c5
   --popover: #13131a;
   --popover-foreground: #e5e7eb;
   --primary: #00d9ff;
@@ -208,8 +201,4 @@
 
 html {
   font-size: var(--font-size);
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 167262af9b447d2e9d5be4e8b43ec7704f5947c5

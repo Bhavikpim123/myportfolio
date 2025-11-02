@@ -155,37 +155,6 @@ The system improved task allocation efficiency and provided actionable insights 
   },
   {
     _id: '3',
-<<<<<<< HEAD
-    title: 'LLM-Powered Intelligent Document Query & Retrieval System | Bajaj HackRx',
-    excerpt: 'LLM-Powered Intelligent Document Query & Retrieval System',
-    content: `# LLM-Powered Intelligent Document Query & Retrieval System | Bajaj HackRx
-
-## Introduction
-
-Developed an intelligent document query and retrieval system for HackRx using LangChain, Gemini API, and FAISS to enable semantic search over large datasets.
-
-## Architecture
-
-- **LLM Integration**: Gemini API for natural language understanding and response generation
-- **Framework**: LangChain for chaining prompts and managing query flow
-- **Vector Store**: FAISS for efficient semantic search and document embedding
-- **Frontend**: React-based responsive web interface
-- **Backend**: Node.js server for query routing and API orchestration
-
-## Implementation Highlights
-
-- Built a preprocessing pipeline for document ingestion, chunking, and embedding generation
-- Enabled real-time query input and retrieval with contextual relevance
-- Designed a clean UI for seamless user interaction and result display
-- Optimized search latency and accuracy for large-scale document sets
-
-## Results
-
-Achieved 95%+ accuracy in document query and retrieval with sub-second processing times, significantly improving knowledge accessibility and efficiency.`,
-    author: 'Bhavik Pimpalkar',
-    publishedAt: '2025-06-10',
-    tags: ['RAG', 'python', 'GeminiAPI', 'ai', 'flask', 'hackathon', 'llm', 'semantics', 'search', 'NLP', 'FAISS'],
-=======
     title: 'License Plate Recognition with YOLO',
     excerpt: 'Real-time vehicle detection and recognition using deep learning',
     content: `# License Plate Recognition with YOLO
@@ -215,7 +184,6 @@ Achieved 95%+ accuracy in license plate detection with sub-second processing tim
     author: 'Bhavik Pimpalkar',
     publishedAt: '2023-06-10',
     tags: ['yolo', 'python', 'computer-vision', 'ai', 'flask'],
->>>>>>> 167262af9b447d2e9d5be4e8b43ec7704f5947c5
     image: 'https://images.unsplash.com/photo-1633250391894-397930e3f5f2?w=800&h=400&fit=crop',
     readTime: 15
   }
@@ -260,9 +228,7 @@ export const techSkills: TechSkill[] = [
 export const buildLog: BuildLogEntry[] = [
   {
     _id: '1',
-<<<<<<< HEAD
     date: '2022-10-20',
-=======
     date: '2022-12-01',
 >>>>>>> 167262af9b447d2e9d5be4e8b43ec7704f5947c5
     title: 'Started B.Tech in Computer Engineering',

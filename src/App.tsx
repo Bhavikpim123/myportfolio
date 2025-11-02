@@ -10,21 +10,15 @@ import Blog from './components/Blog';
 import BuildLog from './components/BuildLog';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-<<<<<<< HEAD
 import emailjs from '@emailjs/browser';
-=======
->>>>>>> 167262af9b447d2e9d5be4e8b43ec7704f5947c5
 
 export default function App() {
   useEffect(() => {
     // Set dark mode by default
     document.documentElement.classList.add('dark');
-<<<<<<< HEAD
     
     // Initialize EmailJS with your public key
     emailjs.init("LstF8hZuqPwdHBtSt"); // Replace with your actual EmailJS public key
-=======
->>>>>>> 167262af9b447d2e9d5be4e8b43ec7704f5947c5
   }, []);
 
   return (
@@ -56,8 +50,4 @@ export default function App() {
       />
     </div>
   );
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 167262af9b447d2e9d5be4e8b43ec7704f5947c5
