@@ -130,7 +130,11 @@ export default function About() {
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div>
               <div className="mb-2" style={{ color: 'var(--neon-blue)' }}>
+<<<<<<< HEAD
                 8+
+=======
+                4+
+>>>>>>> 167262af9b447d2e9d5be4e8b43ec7704f5947c5
               </div>
               <p className="text-muted-foreground">Major Projects</p>
             </div>
@@ -142,7 +146,11 @@ export default function About() {
             </div>
             <div>
               <div className="mb-2" style={{ color: 'var(--neon-blue)' }}>
+<<<<<<< HEAD
                 5+
+=======
+                3+
+>>>>>>> 167262af9b447d2e9d5be4e8b43ec7704f5947c5
               </div>
               <p className="text-muted-foreground">Hackathon Wins</p>
             </div>

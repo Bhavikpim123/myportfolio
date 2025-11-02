@@ -1,12 +1,19 @@
+<<<<<<< HEAD
 import React from 'react';
+=======
+>>>>>>> 167262af9b447d2e9d5be4e8b43ec7704f5947c5
 import { motion } from 'motion/react';
 import { useState } from 'react';
 import { Terminal, Send, CheckCircle2 } from 'lucide-react';
 import { Button } from './ui/button';
 import { Input } from './ui/input';
 import { Textarea } from './ui/textarea';
+<<<<<<< HEAD
 import { toast } from 'sonner';
 import emailjs from '@emailjs/browser';
+=======
+import { toast } from 'sonner@2.0.3';
+>>>>>>> 167262af9b447d2e9d5be4e8b43ec7704f5947c5
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -21,6 +28,7 @@ export default function Contact() {
     e.preventDefault();
     setIsSubmitting(true);
 
+<<<<<<< HEAD
     // EmailJS configuration
     const serviceID = 'service_dn16c5p'; // Replace with your EmailJS service ID
     const templateID = 'template_7fysbl4'; // Replace with your EmailJS template ID
@@ -59,6 +67,26 @@ export default function Contact() {
     } finally {
       setIsSubmitting(false);
     }
+=======
+    // Simulate API call (in real app, this would POST to /api/contact)
+    await new Promise(resolve => setTimeout(resolve, 1500));
+
+    console.log('Contact form submitted:', formData);
+    
+    // Show success message
+    toast.success('Message sent successfully!', {
+      description: 'Thanks for reaching out. I\'ll get back to you soon!'
+    });
+
+    setSubmitted(true);
+    setIsSubmitting(false);
+
+    // Reset form after 3 seconds
+    setTimeout(() => {
+      setFormData({ name: '', email: '', message: '' });
+      setSubmitted(false);
+    }, 3000);
+>>>>>>> 167262af9b447d2e9d5be4e8b43ec7704f5947c5
   };
 
   const terminalLines = [
@@ -153,8 +181,13 @@ export default function Contact() {
 
               <div className="mt-6 space-y-2 text-xs text-muted-foreground">
                 <p>// You can also reach me at:</p>
+<<<<<<< HEAD
                 <p style={{ color: 'var(--neon-blue)' }}>email: bhavikpimpalkar@gmail.com</p>
                 <p style={{ color: 'var(--neon-blue)' }}>phone: +91 9359870044</p>
+=======
+                <p style={{ color: 'var(--neon-blue)' }}>email: bhavikapimpalkar@gmail.com</p>
+                <p style={{ color: 'var(--neon-blue)' }}>phone: +91 9325078911</p>
+>>>>>>> 167262af9b447d2e9d5be4e8b43ec7704f5947c5
                 <p style={{ color: 'var(--neon-blue)' }}>location: Wardha, Maharashtra, India</p>
               </div>
             </div>
@@ -251,7 +284,11 @@ export default function Contact() {
               </Button>
 
               <p className="text-xs text-muted-foreground text-center">
+<<<<<<< HEAD
                 * This form sends messages directly to my email using EmailJS.
+=======
+                * This form submits to a backend API endpoint. In production, messages would be saved to MongoDB.
+>>>>>>> 167262af9b447d2e9d5be4e8b43ec7704f5947c5
               </p>
             </form>
           </motion.div>
@@ -259,4 +296,8 @@ export default function Contact() {
       </div>
     </section>
   );
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 167262af9b447d2e9d5be4e8b43ec7704f5947c5
