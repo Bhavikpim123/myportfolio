@@ -6,28 +6,17 @@ export default function Experience() {
   const experiences = [
     {
       role: 'Frontend Developer Intern',
-<<<<<<< HEAD
       company: 'RetalorXpert',
-=======
-      company: 'RatalaXpert',
->>>>>>> 167262af9b447d2e9d5be4e8b43ec7704f5947c5
       location: 'Wardha',
       type: 'Internship',
       duration: 'May 2025 - July 2025',
       description: 'Led redesign focused on user engagement that increased metrics by 70%. Mentored 3,000+ students monthly.',
       achievements: [
         'Improved performance with REST API integration, reducing load times by 30%',
-<<<<<<< HEAD
         'Developed dashboards using React.js, Node.js, Express.js, PostgreSQL',
-        'Implemented PostgreSQL backend with CSS for responsive design'
-      ],
-      technologies: ['React.js', 'Node.js', 'Express.js','PostgreSQL', 'REST API', 'CSS']
-=======
-        'Developed dashboards using React.js, Node.js, Express.js, MongoDB Atlas',
         'Implemented SQL backend with CSS for responsive design'
       ],
-      technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB Atlas', 'REST API', 'SQL', 'CSS']
->>>>>>> 167262af9b447d2e9d5be4e8b43ec7704f5947c5
+      technologies: ['React.js', 'Node.js', 'Express.js', 'PostgreSQL', 'REST API', 'SQL', 'CSS']
     },
     {
       role: 'Technical Lead',
@@ -35,11 +24,7 @@ export default function Experience() {
       location: 'Wardha',
       type: 'Leadership',
       duration: 'Aug 2024 - Aug 2025',
-<<<<<<< HEAD
       description: 'Leading 10-member technical team to empower students with modern development skills.',
-=======
-      description: 'Leading 48-member technical team to empower students with modern development skills.',
->>>>>>> 167262af9b447d2e9d5be4e8b43ec7704f5947c5
       achievements: [
         'Organized events & Cloud Sprint, Flutter App Development workshops',
         'Conducted Google Cloud training sessions engaging 100+ participants',
@@ -48,33 +33,18 @@ export default function Experience() {
       technologies: ['Google Cloud', 'Flutter', 'Firebase', 'Leadership', 'Event Management']
     },
     {
-<<<<<<< HEAD
-      role: 'ReadersClub Core Team Member',
+      role: 'Club Core Team Member',
       company: 'Readers Club - BITW',
       location: 'Wardha',
       type: 'Leadership',
-      duration: 'Dec 2024 - Jan 2025',
-      description: 'Organized technical events focused on strong communication, real-world data challenges, and industry readiness.',
-      achievements: [
-        'Organized 10+ events building communication and collaboration skills',
-        'Contributed to workshops and competitive events',
-        'Fostered innovation and practical learning among students'
-      ],
-      technologies: ['Communication Building', 'Network Building', 'Workshop Coordination']
-=======
-      role: 'Club Core Team Member',
-      company: 'HeadsUp Club - BITW',
-      location: 'Wardha',
-      type: 'Leadership',
-      duration: 'Dec 2024 - Jan 2025',
+      duration: 'Aug 2024 - Jun 2025',
       description: 'Organized technical events focused on fintech, real-world data challenges, and industry readiness.',
       achievements: [
-        'Organized 80+ events spanning fintech and industry readiness',
+        'Organized 10+ events spanning Communication and industry readiness',
         'Contributed to workshops and competitive events',
         'Fostered innovation and practical learning among students'
       ],
-      technologies: ['Fintech', 'Data Analytics', 'Workshop Coordination']
->>>>>>> 167262af9b447d2e9d5be4e8b43ec7704f5947c5
+      technologies: ['SoftSkills', 'Network Building', 'Workshop Coordination']
     }
   ];
 

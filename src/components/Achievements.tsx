@@ -6,24 +6,15 @@ export default function Achievements() {
     {
       icon: Trophy,
       title: '1st Place',
-<<<<<<< HEAD
       event: 'NetworkBIT Chess Competition',
       description: 'Won first place in the NetworkBIT Chess Competition, competing against high Elo Chess Players in the college',
-=======
-      event: 'Devhouse Hackathon',
-      description: 'Won first place in the prestigious Devhouse Hackathon, competing against top developers',
->>>>>>> 167262af9b447d2e9d5be4e8b43ec7704f5947c5
       color: 'var(--neon-blue)',
       highlight: true
     },
     {
       icon: Medal,
       title: 'Top 15 Finalist',
-<<<<<<< HEAD
       event: 'YCCE Smackathon 2025',
-=======
-      event: 'VCET Hackathon 2025',
->>>>>>> 167262af9b447d2e9d5be4e8b43ec7704f5947c5
       description: 'Built an LLM-powered query system for Finance and secured position among top finalists',
       color: '#f59e0b',
       highlight: true
@@ -31,17 +22,10 @@ export default function Achievements() {
     {
       icon: Award,
       title: '1st Runner-Up',
-<<<<<<< HEAD
       event: 'CodeCraft MLops Competition',
       description: 'Achieved 1st Runner-Up position at Bajaj Institute of Technology competition',
       color: '#8b5cf6',
       highlight: true
-=======
-      event: 'CodeCraft XL Competition',
-      description: 'Achieved 1st Runner-Up position at Baja Institute of Technology competition',
-      color: '#8b5cf6',
-      highlight: false
->>>>>>> 167262af9b447d2e9d5be4e8b43ec7704f5947c5
     }
   ];
 
@@ -171,11 +155,7 @@ export default function Achievements() {
         >
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             <div>
-<<<<<<< HEAD
               <div className="mb-1" style={{ color: 'var(--neon-blue)' }}>20+</div>
-=======
-              <div className="mb-1" style={{ color: 'var(--neon-blue)' }}>3+</div>
->>>>>>> 167262af9b447d2e9d5be4e8b43ec7704f5947c5
               <p className="text-sm text-muted-foreground">Hackathons</p>
             </div>
             <div>

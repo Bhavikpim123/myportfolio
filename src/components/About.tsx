@@ -11,25 +11,25 @@ export default function About() {
       icon: Briefcase,
       title: 'Experience',
       front: 'Frontend Developer',
-      back: 'Frontend Developer Intern at RatalaXpert (May-July 2025). Led redesign increasing user engagement by 70%, mentoring 3,000+ students monthly with REST API integrations.'
+      back: 'Frontend Developer Intern at RetalorXpert (May-July 2025). Led redesign increasing user engagement by 70%, mentoring 3,000+ students monthly with REST API integrations.'
     },
     {
       icon: GraduationCap,
       title: 'Education',
       front: 'B.Tech Student',
-      back: 'Computer Engineering at BITW, Wardha (2022-Present). CGPA: 7.4. Technical Lead at Google Developer Groups On Campus, leading 48-member team.'
+      back: 'Computer Engineering at BITW, Wardha (2022-Present). CGPA: 7.2. Technical Lead at Google Developer Groups On Campus, leading 10-member team.'
     },
     {
       icon: Heart,
       title: 'Leadership',
       front: 'Community Builder',
-      back: 'Technical Lead at GDG BITW organizing Cloud Sprints and Flutter workshops. Core team member at HeadsUp Club organizing 80+ fintech and data challenge events.'
+      back: 'Technical Lead at GDG BITW organizing Cloud Sprints and Flutter workshops. Core team member at Readers Club organizing 10+ Softskills and Presentation events.'
     },
     {
       icon: Zap,
       title: 'Achievements',
-      front: 'Hackathon Winner',
-      back: '1st Place at Devhouse Hackathon, Top 15 at VCET Hackathon 2025 (LLM Finance Query System), 1st Runner-Up at CodeCraft XL Competition.'
+      front: 'Competition/Hackathons Winner',
+      back: '1st Place at NetworkBIT Chess Competition, Top 15 at YCCE Smackathon 2025 (LLM Finance Query System), 1st Runner-Up at CodeCraft MLops Competition.'
     }
   ];
 
@@ -130,11 +130,7 @@ export default function About() {
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div>
               <div className="mb-2" style={{ color: 'var(--neon-blue)' }}>
-<<<<<<< HEAD
                 8+
-=======
-                4+
->>>>>>> 167262af9b447d2e9d5be4e8b43ec7704f5947c5
               </div>
               <p className="text-muted-foreground">Major Projects</p>
             </div>
@@ -146,11 +142,7 @@ export default function About() {
             </div>
             <div>
               <div className="mb-2" style={{ color: 'var(--neon-blue)' }}>
-<<<<<<< HEAD
                 5+
-=======
-                3+
->>>>>>> 167262af9b447d2e9d5be4e8b43ec7704f5947c5
               </div>
               <p className="text-muted-foreground">Hackathon Wins</p>
             </div>
