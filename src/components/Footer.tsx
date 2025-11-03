@@ -5,9 +5,9 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com/bhavik', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com/in/bhavik-pimpalkar', label: 'LinkedIn' },
-    { icon: Mail, href: 'mailto:bhavikapimpalkar@gmail.com', label: 'Email' }
+    { icon: Github, href: 'https://github.com/Bhavikpim123', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/bhavik-pimpalkar-46855a230/', label: 'LinkedIn' },
+    { icon: Mail, href: 'mailto:bhavikpimpalkar@gmail.com', label: 'Email' }
   ];
 
   return (
